@@ -2,7 +2,10 @@
   "name": "professional-project",
   "version": "1.0.0",
   "description": "a backend project",
-  "keywords": ["javascript", "backend"],
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
   "license": "ISC",
   "author": "Manik Jain",
   "type": "module",
@@ -15,6 +18,8 @@
     "prettier": "^3.7.4"
   },
   "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mongoose": "^9.1.1"
