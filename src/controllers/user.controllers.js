@@ -163,7 +163,7 @@ if(incomingRefreshToken!==user?.refreshToken){
 }
 
  const options = {
-  httpOnly: true,
+  httpOnly: true, 
   secure: true
 };
 generateAccessAndRefreshToken(user._id)
